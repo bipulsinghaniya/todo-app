@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #0f0f1a;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7c3aed;
+    border-radius: 99px;
+}
+
+/* Fade-in animation for tasks */
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.task-enter {
+    animation: fadeSlideIn 0.3s ease both;
+}
+
+/* Checkbox custom */
+input[type="checkbox"] {
+    accent-color: #7c3aed;
+}
