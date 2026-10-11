@@ -6,7 +6,7 @@ A modern, full-featured task management app built with **React 19 + Vite + Tailw
 
 ## 🌐 Live Demo
 
-> 🔗 **[Add your deployment link here]**
+> 🔗 **[Add your deployment link here](https://golden-platypus-e8305f.netlify.app/]**
 
 ---
 
